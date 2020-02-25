@@ -1,6 +1,6 @@
 {
   "name": "@kps3/hbs-template-builder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Builds handlebars templates using components/layout",
   "main": "index.js",
   "bin": "bin/index.js",

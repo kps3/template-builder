@@ -6,18 +6,18 @@
 
     .
     ├── ...
-    ├── templates                    
+    ├── templates
     │   ├── components               # Components/partials used within the templates
-    │   |   ├── header.hbs           
+    │   |   ├── header.hbs
     │   ├── layouts                  # Layouts (must use `{{{yield}}}` to output template body)
-    │   |   ├── default.hbs          
+    │   |   ├── default.hbs
     │   └── index.hbs                # Templates
     └── ...
 
 ### Code
 
 ```javascript
-const templateCompiler = require('template-builder');
+const templateCompiler = require('@kps3/hbs-template-builder');
 
 templateBuilder({
   path: './templates',         // relative path to template directory
@@ -31,5 +31,5 @@ templateBuilder({
 ### CLI
 
 ```bash
-$ template-builder --path=./templates --layout=default.hbs --output=./dist --buildComponents --watch
+$ hbs-template-builder --path=./templates --layout=default.hbs --output=./dist --buildComponents --watch
 ```

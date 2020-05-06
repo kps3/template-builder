@@ -9,7 +9,7 @@
     "glob": "^7.1.6",
     "handlebars": "^4.7.6",
     "handlebars-helper-repeat": "^2.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.3",
     "nsfw": "^2.0.0"
   }
 }

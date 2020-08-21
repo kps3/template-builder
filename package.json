@@ -10,6 +10,7 @@
     "handlebars": "^4.7.6",
     "handlebars-helper-repeat": "^2.0.0",
     "minimist": "^1.2.5",
-    "nsfw": "^2.0.0"
+    "nsfw": "^1.2.7",
+    "yaml-front-matter": "^4.1.0"
   }
 }
